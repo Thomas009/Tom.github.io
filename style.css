@@ -17,7 +17,7 @@ text-align:center;
 
 .hero h1{
 font-family:'Playfair Display',serif;
-font-size:52px;
+font-size:54px;
 letter-spacing:2px;
 margin:0;
 }
@@ -47,8 +47,8 @@ transition:transform .35s ease, box-shadow .35s ease;
 }
 
 .grid img:hover{
-transform:scale(1.04);
-box-shadow:0 15px 35px rgba(0,0,0,0.15);
+transform:scale(1.05);
+box-shadow:0 15px 35px rgba(0,0,0,0.2);
 }
 
 .about{
