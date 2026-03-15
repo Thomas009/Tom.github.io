@@ -4,13 +4,13 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>ThroughTomLens</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 
 </head>
 
@@ -18,8 +18,12 @@
 
 <header class="hero">
 
+<div class="overlay"></div>
+
 <h1>ThroughTomLens</h1>
-<p class="tagline">Natural moments quietly observed</p>
+<p>Natural moments quietly observed</p>
+
+<button id="themeToggle">Toggle Theme</button>
 
 </header>
 
@@ -27,15 +31,15 @@
 
 <div class="grid">
 
-<img src="https://source.unsplash.com/800x800/?wildlife">
-<img src="https://source.unsplash.com/800x800/?bird">
-<img src="https://source.unsplash.com/800x800/?forest">
-<img src="https://source.unsplash.com/800x800/?mountains">
-<img src="https://source.unsplash.com/800x800/?animal">
-<img src="https://source.unsplash.com/800x800/?nature">
-<img src="https://source.unsplash.com/800x800/?landscape">
-<img src="https://source.unsplash.com/800x800/?eagle">
-<img src="https://source.unsplash.com/800x800/?deer">
+<img src="https://source.unsplash.com/1200x900/?wildlife">
+<img src="https://source.unsplash.com/1200x900/?bird">
+<img src="https://source.unsplash.com/1200x900/?forest">
+<img src="https://source.unsplash.com/1200x900/?deer">
+<img src="https://source.unsplash.com/1200x900/?mountain">
+<img src="https://source.unsplash.com/1200x900/?nature">
+<img src="https://source.unsplash.com/1200x900/?eagle">
+<img src="https://source.unsplash.com/1200x900/?animal">
+<img src="https://source.unsplash.com/1200x900/?landscape">
 
 </div>
 
@@ -48,21 +52,8 @@
 <p>
 
 Photography is a quiet way of observing the world.
-Animals, birds, landscapes and fleeting moments of life
+Animals, birds, landscapes and fleeting moments
 that spark imagination and hope.
-
-</p>
-
-</section>
-
-<section class="notes">
-
-<h2>Field Notes</h2>
-
-<p>
-
-Small reminders that beauty exists quietly
-in ordinary places.
 
 </p>
 
@@ -72,12 +63,15 @@ in ordinary places.
 
 <p>© ThroughTomLens</p>
 
-<p>
 <a href="#">Instagram</a>
-</p>
 
 </footer>
 
-</body>
+<div id="viewer">
+<img id="viewer-img">
+</div>
 
+<script src="script.js"></script>
+
+</body>
 </html>
